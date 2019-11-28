@@ -1,7 +1,7 @@
 #include "Mybank.h"
 #include <stdio.h>
 float arr[ROWS][COLS] = { 0 };
-int account_numbers[ROWS] = { 0 ,0,0,0,0};
+int account_numbers[ROWS] = { 0 };
 int count = 0;
 
 int  Opening_an_account(float initial_amount) {
@@ -10,7 +10,7 @@ int  Opening_an_account(float initial_amount) {
 	int upper = 950;
 	int lower = 901;
 	int Account_Number;
-	if (count >= 5) {
+	if (count >= 50) {
 	return printf("No bank account available. \n");
 	}
 	else {
