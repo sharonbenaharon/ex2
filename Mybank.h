@@ -1,7 +1,7 @@
 #ifndef _MYBANK_H
 #define _MYBANK_H
 #define COLS 2 
-#define ROWS 5
+#define ROWS 50
 #include<stdlib.h>
 #include <time.h>
 
