@@ -1,6 +1,6 @@
 #include "Mybank.h"
 #include <stdio.h>
-float arr[ROWS][COLS] = { 0 };
+arr[ROWS][COLS] = { 0 };
 int account_numbers[ROWS] = { 0 };
 int count = 0;
 
